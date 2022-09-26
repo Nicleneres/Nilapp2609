@@ -1,0 +1,41 @@
+1) Criando projeto
+	expo init NomeApp
+
+2) Entrando no projeto
+	cd NomeApp
+
+3) Instalando o ambiente de teste via navegador
+	npm install react-native-web@~0.18.7 react-dom@18.0.0 @expo/webpack-config@^0.17.0
+
+4) Instalando bibliotecas de suporte a navegação
+	npm install @react-navigation/native
+	expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+
+****** Criando versões do seu projeto ********
+git checkout -b projeto1
+git checkout -b projeto2
+
+
+****** Acessando projeto1
+git checkout projeto1
+4) Instalar a bibliotecas bottom-tabs
+	npm install @react-navigation/bottom-tabs
+	
+Agora é sua vez, faça você.
+
+5) Start no ambiente de teste via navegador
+	expo start -w
+
+
+
+****** Acessando projeto2
+git checkout projeto2
+
+4) Instalar as bibliotecas
+	npm install @react-navigation/stack	
+	
+Agora é sua vez, faça você.
+	
+5) Start no ambiente de teste via navegador
+	expo start -w
